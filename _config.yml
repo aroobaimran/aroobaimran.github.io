@@ -1,0 +1,149 @@
+# Site
+repository: aroobaimran/aroobaimran.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Arooba Imran
+title: Computer Science Undergraduate | AI & Machine Learning
+email: aroobaimran1@gmail.com
+phone: "03334008606"
+website: https://aroobaimran.github.io
+location: Lahore, Pakistan
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username: aroobaimran
+linkedin_username: arooba-imran-918980348
+
+# Additional icon links
+additional_links:
+  - title: GitHub Profile
+    icon: fab fa-github
+    url: https://github.com/aroobaimran
+  - title: LinkedIn Profile
+    icon: fab fa-linkedin
+    url: https://linkedin.com/in/arooba-imran-918980348
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Computer Science undergraduate at LUMS with hands-on experience in AI, Machine Learning, and software development. Experienced Teaching Assistant for AI/ML courses, skilled in mentoring, collaborative problem-solving, and project management, with a strong commitment to continual learning and innovation.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Mindbloom: AI-Powered Study Productivity Platform
+        sub_title: Senior Project, LUMS
+        description: |
+          Built a multi-platform intelligent study assistant across web, mobile, and Chrome extension using a Node.js/Express backend with Firebase-based authentication and real-time data handling.
+
+          Developed key features including focus tracking and session logging, AI-powered flashcard generation from PDFs, interactive analytics dashboards, goal tracking, calendar integration, and gamified reward systems.
+
+          Designed and implemented a machine learning-driven recommendation engine that analyzes user behavior patterns including focus duration, distractions, and temporal trends to deliver personalized study strategies.
+
+          Engineered a scalable and secure API architecture, and conducted end-to-end testing using Playwright to ensure system reliability and cross-platform consistency.
+
+      - layout: top-middle
+        title: EduLink – Student-Tutor Web Platform
+        description: |
+          Developed a full-stack web platform that connects students with tutors for online learning, enabling course browsing, enrollment, and interaction, using React, Node.js, and Express.js.
+
+          Designed and managed the database using Oracle Database, implementing structured schemas for users, courses, and enrollments, along with secure authentication and role-based access control.
+
+          Performed end-to-end testing using Cypress, deployed via Vercel, managed version control with Git, and configured backend services on a virtual machine.
+
+      - layout: top-middle
+        title: Generative AI Development of LLaMA
+        description: |
+          Built a transformer-based generative language model inspired by LLaMA, implementing attention mechanisms and training pipelines for context-aware text generation.
+
+      - layout: top-middle
+        title: Conversational PDF Assistant
+        description: |
+          Developed an AI-powered assistant enabling users to upload PDFs and query document content, using transformer-based models for context-aware question answering.
+
+          Implemented text extraction, chunking, and retrieval pipelines, optimized responses via prompt engineering, and integrated backend APIs for efficient data processing.
+
+      - layout: top-middle
+        title: Diagnosis Chat Bot
+        description: |
+          Developed an AI-powered chatbot that analyzes user-reported symptoms and provides preliminary health insights using rule-based logic and machine learning techniques.
+
+          Performed data scraping and preprocessing to build a structured dataset, then trained and fine-tuned models to improve prediction accuracy and response relevance.
+
+          Designed conversation flows and implemented natural language processing to interpret user input, and integrated backend APIs for efficient query handling.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Lahore University of Management Sciences
+        sub_title: Teaching Assistant
+        description: |
+          Helped the course instructor by grading assignments and exams, conducting office hours, delivering tutorials, and preparing comprehensive documentation for project deliverables, improving student clarity and reducing repeated queries.
+
+          Supervised and provided feedback on students' machine learning assignments and final projects, ensuring timely completion and higher overall project quality.
+
+      - layout: left
+        title: Optimus Fox
+        sub_title: Generative AI Intern
+        description: |
+          Completed a Generative AI internship, leveraging fine-tuning, prompt engineering, and LLMs to develop and deploy AI-driven prototypes, reducing response errors by 20% and enhancing model performance for real-world applications.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Lahore University of Management Sciences
+        caption: Present
+        sub_title: BS Computer Science
+        description: |
+          Relevant Coursework: Data Structures, Advanced Programming, Artificial Intelligence, Machine Learning, Generative AI, Discrete Mathematics, Software Engineering, Data Science, Databases, The Psychology of Intelligence and AI, Blockchain, Coding for Careers
+
+      - layout: left
+        title: Lahore Grammar School
+        caption: 2020 - 2022
+        sub_title: A-Levels
+        description: |
+          Completed A-Levels in Chemistry, Physics, Biology
+
+      - layout: left
+        title: Lahore Grammar School
+        caption: 2019 - 2020
+        sub_title: O-Levels
+        description: |
+          Completed O-Levels in Chemistry, Physics, Biology
+
+  - title: Skills
+    layout: text
+    content: |
+      **Technical Languages:** C, C++, Python, JavaScript, TypeScript, Haskell
+
+      **Libraries / Platforms:** NLTK, scikit-learn, Matplotlib, Kaggle, Hugging Face
+
+      **Backend Development:** Node.js
+
+      **Front End Development:** React
+
+      **Tools:** Git, Vercel, Docker, Chromium, MongoDB, Oracle, Firebase
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
