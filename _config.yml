@@ -40,7 +40,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Mindbloom: AI-Powered Study Productivity Platform
+        title: "Mindbloom: AI-Powered Study Productivity Platform"
         sub_title: Senior Project, LUMS
         description: |
           Built a multi-platform intelligent study assistant across web, mobile, and Chrome extension using a Node.js/Express backend with Firebase-based authentication and real-time data handling.
